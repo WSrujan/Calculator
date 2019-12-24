@@ -7,8 +7,10 @@ void main()
     char operate;
 
     printf("Enter two numbers:\n");
+    fflush(stdout);
     scanf("%d%d", &num1, &num2);
     printf("Enter the operation sign:\n");
+    fflush(stdout);
     scanf(" %c", &operate);
     
     switch(operate)
